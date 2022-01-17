@@ -24,7 +24,6 @@ function TinderCards() {
   };
   return (
     <div className="tindercards">
-      <h1>Cards</h1>
       <div className="tinderCards__cardsContainer">
         {people.map((person) => (
           <TinderCard
