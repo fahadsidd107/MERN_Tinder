@@ -6,3 +6,9 @@
     justify-content:space-evenly;
     
 }
+
+.swipeButtons_repeat .MuiIconButton-root{
+    background-color: white;
+    
+
+}
