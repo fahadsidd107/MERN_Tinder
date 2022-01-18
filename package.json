@@ -2,10 +2,18 @@
   "name": "mern_tinder",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fahadsidd107/MERN_Tinder.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fahadsidd107/MERN_Tinder/issues"
+  },
+  "homepage": "https://github.com/fahadsidd107/MERN_Tinder#readme"
 }
