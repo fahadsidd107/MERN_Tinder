@@ -17,9 +17,28 @@ mongoose.connect(db_url
     )
 //Api Endpoints
 app.get('/',(req,res)=> res.status(200).send('Hello Fahad Bhai'))
+
 app.post('/tinder/cards',(req,res)=>{
     const cardDb = req.body
+cards.create(cardDb,(err,data)=>{
+    if (err){
+        res.status(500).send(err)
+    }
+    else{
+        res.status(201).send(data)
+    }
+})
 })
 
+app.get('/tinder/cards',(req,res)=>{
+cards.find((err,data)=>{
+    if (err){
+        res.status(500).send(err)
+    }
+    else{
+        res.status(200).send(data)
+    }
+})
+})
 //Listener
 app.listen(PORT,()=>console.log(`YOUR APP IS BEiNG LISTENED AT PORT ${PORT}`) )
