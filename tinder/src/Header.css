@@ -6,8 +6,8 @@ z-index: 100;
 border-bottom: 1px solid #f8f5f5;
 }
 .header__logo{
-object-fit: contain;
 height: 40px;
+object-fit: contain;
 }
 .header__icon{
     padding: 20px;
