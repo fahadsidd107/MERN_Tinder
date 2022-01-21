@@ -2,8 +2,8 @@
     position: fixed;
     bottom: 7vh;
     width: 100%;
-    display: flex;
     justify-content:space-evenly;
+    display: flex;
     
 }
 
