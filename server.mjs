@@ -15,6 +15,7 @@ mongoose.connect(db_url
     // useCreateIndex:true,
     // useUnifiedTopology:true,}
     )
+
 //Api Endpoints
 app.get('/',(req,res)=> res.status(200).send('Hello Fahad Bhai'))
 
