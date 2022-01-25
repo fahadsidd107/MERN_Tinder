@@ -1,6 +1,6 @@
 import express from 'express'
 import mongoose from 'mongoose'
-console.log('Muhammad Fahad Siddiqui ')
+console.log('Muhammad Fahad Siddiqui')
 import cards from './DBCards.mjs'
 import Cors from 'cors'
 // App Config
