@@ -37,7 +37,7 @@ async function fetchData(){
     console.log("removing : " + nameToDelete);
   };
   const outOfframe = (name) => {
-    console.log(name + "left the screen!");
+    console.log(name + " left the screen!");
   };
   return (
     <div className="tindercards">
