@@ -31,15 +31,15 @@ function TinderCards() {
 
 
 
-  useEffect(()=>{
-async function fetchData(){
- const req = await
-}
-  },[])
+//   useEffect(()=>{
+// async function fetchData(){
+//  const req = await
+// }
+//   },[])
 
 
 
-  
+
   const swiped = (direction, nameToDelete) => {
     console.log("removing : " + nameToDelete);
   };
