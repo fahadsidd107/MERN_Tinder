@@ -31,11 +31,11 @@ function TinderCards() {
 
 
 
-//   useEffect(()=>{
-// async function fetchData(){
-//  const req = await
-// }
-//   },[])
+  useEffect(()=>{
+async function fetchData(){
+ const req = await
+}
+  },[])
 
 
 
