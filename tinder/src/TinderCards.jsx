@@ -16,7 +16,7 @@ function TinderCards() {
     //     "https://www.thenews.com.pk/assets/uploads/updates/2021-06-01/843144_134147_Babar-Azam-hero-loook_updates.jpg",
     // },
     // {
-    //   name: "Leo Messi",
+    //   name: "Lionel Messi",
     //   image_url:
     //     "https://www.fcbarcelonanoticias.com/uploads/s1/12/78/51/5/paris-saint-germain-v-lille-osc-ligue-1-uber-eats-1.jpeg?mrf-size=m",
     // },
