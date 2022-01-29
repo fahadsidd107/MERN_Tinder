@@ -20,7 +20,7 @@ mongoose.connect(db_url
     )
 
 //Api Endpoints
-app.get('/',(req,res)=> res.status(200).send('Hello Fahad Bhai'))
+app.get('/',(req,res)=> res.status(200).send('HAn bhai get ki request chal rhi'))
 
 app.post('/tinder/cards',(req,res)=>{
     const cardDb = req.body
