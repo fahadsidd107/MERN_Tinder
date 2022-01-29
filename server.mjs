@@ -45,4 +45,4 @@ cards.find((err,data)=>{
 })
 })
 //Listener
-app.listen(PORT,()=>console.log(`YOUR APP IS BEiNG LISTENED AT PORT ${PORT}`) )
+app.listen(PORT,()=>console.log(`YOUR APP ISRUNNING ON PORT PORT ${PORT}`) )
