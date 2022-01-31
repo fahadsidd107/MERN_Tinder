@@ -10,7 +10,7 @@ function Header() {
             <AccountCircleIcon fontSize='large' className='header__icon'/>
             </IconButton>
             <img className='header__logo'
-             src='https://logodownload.org/wp-content/uploads/2020/09/tinder-logo.png'
+             src='https://logodownload.org/wp-content/uploads/2020/09/tinder-logo.pn'
               alt=''
              />
              <IconButton>
