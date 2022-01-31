@@ -3,7 +3,7 @@ display:flex;
 align-items: center;
 justify-content: space-between;
 z-index: 100;
-border-bottom: 1px solid #f8f5f5;
+border-bottom: 1px solid #faeded;
 }
 .header__logo{
 height: 40px;
