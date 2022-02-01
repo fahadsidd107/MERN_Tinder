@@ -2,7 +2,7 @@ import React from 'react'
 import './Header.css'
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import { IconButton } from '@mui/material';
-import ForumIcon from '@mui/icons-material/orum';
+import ForumIcon from '@mui/icons-material/Forum';
 function Header() {
     return (
         <div className='header'>
