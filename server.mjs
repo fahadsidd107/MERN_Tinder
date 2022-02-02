@@ -8,7 +8,7 @@ const app = express()
 const PORT= process.env.port || 7000
 const db_url = 'mongodb+srv://admin:admin@cluster0.zkqln.mongodb.net/tinderdb?retryWrites=true&w=majority'
 //Middleware
-app.use(express.jon())
+app.use(express.json())
 app.use(Cors())
 
 //DB Config
