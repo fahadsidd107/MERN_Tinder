@@ -41,7 +41,7 @@ function TinderCards() {
 
 
   const swiped = (direction, nameToDelete) => {
-    console.log("removing : " + nameToDelete);
+    console.log("removing: " + nameToDelete);
   };
   const outOfframe = (name) => {
     console.log(name + " left the screen!");
