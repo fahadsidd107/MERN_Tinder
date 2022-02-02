@@ -32,9 +32,9 @@ function TinderCards() {
 
 
   useEffect(()=>{
-async function fetchData(){
- const req = await
-}
+// async function fetchData(){
+//  const req = await
+// }
   },[])
 
 
