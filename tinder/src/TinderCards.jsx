@@ -26,6 +26,7 @@ function TinderCards() {
     //     "https://static.standard.co.uk/2021/11/28/16/newFile-2.jpg?width=1200",
     // },
   ]
+
     );
 
 
