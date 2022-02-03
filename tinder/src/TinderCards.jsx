@@ -31,9 +31,11 @@ function TinderCards() {
 
 
   useEffect(()=>{
-// async function fetchData(){
-//  const req = await
-// }
+async function fetchData(){
+ const req = await axios.get('/tinder/cards')
+ setPeople(req.data)
+}
+fetchData()
   },[])
 
 
@@ -57,7 +59,7 @@ function TinderCards() {
             onCardLeftScreen={() => outOfframe(person.name)}
           >
             <div
-              style={{ backgroundImage: `url(${person.image_url})` }}
+              style={{ backgroundImage: `url(${person.imgUrl})` }}
               className="card"
             >
               <h1>{person.name}</h1>
